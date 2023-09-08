@@ -1,0 +1,15 @@
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+}
+.card{
+    margin-top: 150px;
+    background-color: #495520;
+}
+.clear{
+    position: relative;
+    margin: 2rem;
+    height: 50px;
+    width: -webkit-fill-available;
+}

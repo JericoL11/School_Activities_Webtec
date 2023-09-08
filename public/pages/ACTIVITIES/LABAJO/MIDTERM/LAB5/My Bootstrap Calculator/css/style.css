@@ -1,0 +1,36 @@
+body{
+    background-color: #495250;
+}
+
+.card {
+    margin-top: 100px;
+    background-color: #1f2120;
+}
+
+#addBtn{
+    background-color:blue;
+    width:50px;
+}
+
+#minBtn{
+    background-color: yellow;
+    width: 50px;;
+}
+
+#prodBtn{
+    background-color: green;
+    width:50px;
+}
+
+#divBtn{
+    background-color: red;
+    width:50px;
+}
+
+#btnClear{
+    background-color: grey;
+}
+#numColor{
+    color: white;
+
+}

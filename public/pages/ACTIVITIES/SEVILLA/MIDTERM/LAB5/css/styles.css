@@ -1,0 +1,13 @@
+body {
+    background-image: url("123.jpg");
+    margin-right: 150px;
+    margin-top: 150px;
+}
+
+.card {
+    background-color: #181818;
+    color: #FFFFFF;
+    margin-top: 150px;
+    margin-right: 317px;
+    width: 30rem;
+}

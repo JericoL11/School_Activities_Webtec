@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <title>Bootstrap Calculator</title>
+</head>
+<body style="background-color: #495520;">
+    <div class="container">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+            <div style="margin-top: 150px;
+            right: 200px; padding: 2rem; background: #000;" class="card">
+              <div style="text-align: center; color: white;"class="card-header">
+                My Bootstrap Calculator
+              </div>
+              <div class="card-body">
+                <div class="mb-3">
+                  <label style="color:white" for="number1" class="form-label">Number 1:</label>
+                  <input style="width: 100%;" type="text" class="form-input" placeholder="Enter number 1" id="txtNum1">
+                </div>
+                <div class="mb-3">
+                  <label style="color:white" for="number2" class="form-label">Number 2:</label>
+                  <input  style="width: 100%;"type="text" class="form-input" placeholder="Enter number 2" id="txtNum2">
+                </div>
+                <br>
+                <div class="row">
+                 <div class="d-grid gap-2"></div>
+                  <div class="col">
+                    <button style="width: 100%;" type="button" class="btn btn-primary" onclick="addNumbers()">+</button>
+                  </div>
+                  <div class="col">
+                    <button style="width: 100%;" type="button" class="btn btn-warning"onclick="subtractNumbers()">-</button>
+                  </div>
+                  <div class="col">
+                    <button style="width: 100%;" type="button" class="btn btn-success"onclick="multiplyNumbers()">*</button>
+                  </div>
+                  <div class="col">
+                    <button style="width: 100%;" type="button" class="btn btn-danger"onclick="divideNumbers()">/</button>
+                  </div>
+                  <button  style="margin-top: 2rem;" type="button" class="btn btn-secondary"onclick="clearTextboxes()">Clear</button>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col">
+                   
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+        <script type="text/javascript" src="/js/script.js"></script>
+      
+</body>
+</html>

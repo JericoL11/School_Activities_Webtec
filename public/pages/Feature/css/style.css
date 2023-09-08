@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*
+{
+    color: black;    
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+
+body
+{
+    margin: 0;
+    display: grid;
+    background-color: black;
+    height: 100vh;
+       
+}
+
+ /* CSS for header */
+ .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin-right: 20px;
+}
+.container
+{
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+}
+
+.container .box p
+{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+}
+
+
+.box{
+    background-color: white;
+    padding: 2%;
+   
+}
+.Checked{
+  color: orange;
+}
+  .Button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .Button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Button {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  }
+  
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){}
+
+
+

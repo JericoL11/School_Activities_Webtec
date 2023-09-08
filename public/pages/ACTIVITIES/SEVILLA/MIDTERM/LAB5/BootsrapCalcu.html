@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">      
+        <link rel="stylesheet" href="css/styles.css" type="text/css">      
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <div class="card">
+                        <center><p>My Bootstrap Calculator</p></center>
+                        <div class="card-body">
+                            <div class="mb-3">  
+                                <label for="textNum1" class="form-label">Number 1:</label><br>
+                                <input type="text" class="form-control" id="textNum1" placeholder="Enter Number 1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="textNum2" class="form-label">Number 2:</label><br>
+                                <input type="text" class="form-control" id="textNum2" placeholder="Enter Number 2">
+                            </div>
+                            <div class="col"></div><br>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="d-grid gap-2">
+                                        <button type="button" class="btn btn-primary btn-lg" onclick="addNumbers()">+</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-grid gap-2">
+                                        <button type="button" class="btn btn-warning btn-lg" onclick="subtractNumbers()">-</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-grid gap-2">  
+                                        <button type="button" class="btn btn-success btn-lg" onclick="multiplyNumbers()">*</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-grid gap-2">
+                                        <button type="button" class="btn btn-danger btn-lg" onclick="divideNumbers()">/</button>
+                                    </div>
+                                </div>
+                            </div><br>
+                            
+                            <div class="row">
+                                <div class="col">
+                                    <div class="d-grid gap-2">
+                                        <button type="button" class="btn btn-secondary btn-lg" onclick="clearTextboxes()">Clear</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

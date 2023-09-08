@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+                         initial-scale=1.0">
+
+
+    <title>Group 6 Website</title>
+    <link rel="stylesheet"  href="pages/Login/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<!-- //background-image -->
+
+<body>
+   
+    <header>
+        <h1 class="heading">GROUP 6</h1>
+        <h3 class="title"> Login & Registration Form</h3>
+    </header>
+ 
+    <!-- container div -->
+    <div class="container">
+ 
+        <div class="container-mt-5">
+        <!-- upper button section to select
+             the login or signup form -->
+        <div class="slider"></div>
+        <div class="btn">
+            <button class="login" onclick="clearSignUpFields()">Login</button>
+            <button class="signup" onclick="clearLoginField()">Signup</button>
+        </div>
+ 
+        <!-- Form section that contains the
+             login and the signup form -->
+              
+            
+        <div class="form-section">
+            
+            <!-- login form -->
+            <form onsubmit="return validateDEFAULT()">
+            <div class="login-box">
+               
+                <center><h3>Please login your account</h3>
+                <br><br>
+
+                <input type="text"
+                       class="email ele"
+                       id="username"
+                       placeholder="username">
+                       
+                       <label><input type="password"
+                       class="password ele"
+                       id="password"
+                       placeholder="password">
+                       
+                       <!-- checkbox to show password -->
+                        <br><br> Show Password <input type="checkbox"
+                       id="showPassword"
+                       class="checkbox"
+                       onclick="LoginPasswordVisibility()"></label>
+
+                    <center>
+                       <br> <button input type="submit" value="Submit" class="hover-button">Login</a></button>
+                    </center>
+
+                    </form>
+                </div>
+          
+
+            <!-- signup form -->
+            <div class="signup-box">
+                <input type="text"
+                       class="name ele"
+                       id="signupUsername"
+                       placeholder="Enter your name" required>
+                <input type="email"
+                       class="email ele"
+                       id="signupEmail"
+                       placeholder="youremail@gmail.com" required>
+                <input type="password"
+                       class="password ele"
+                       id="signupPassword"
+                       placeholder="password" required>
+
+                      <input type="password"
+                       class="password ele"
+                       id="signupConfirm" 
+                       placeholder="Confirm password" required>
+                    
+                          <!-- checkbox to show password -->
+                          <label>Show Password<input type="checkbox"
+                          id="showPasswordsSignUp"
+                          class="checkbox"
+                          onclick="togglePasswordVisibility()"></label>
+                     <center>  <br>
+                      <button input type="button" value="Sign Up" onclick="signUp()" class="hover-button">Login</a></button> 
+                    </center>
+            </div>
+        </div>  </div>
+        </div>
+    </div>
+</div>
+
+    <script src="pages/Login/java/script.js"></script>
+
+    <!-- BACKGROUND -->
+    <div class="animated-background">
+		<div class="animated-background-item animated-background-item-1"></div>
+		<div class="animated-background-item animated-background-item-2"></div>
+		<div class="animated-background-item animated-background-item-3"></div>
+		<div class="animated-background-item animated-background-item-4"></div>
+		<div class="animated-background-item animated-background-item-5"></div>
+		<div class="animated-background-item animated-background-item-6"></div>
+		<div class="animated-background-item animated-background-item-7"></div>
+		<div class="animated-background-item animated-background-item-8"></div>
+		<div class="animated-background-item animated-background-item-9"></div>
+		<div class="animated-background-item animated-background-item-10"></div>
+        <div class="animated-background-item animated-background-item-11"></div>
+        <div class="animated-background-item animated-background-item-12"></div>
+        <div class="animated-background-item animated-background-item-13"></div>
+        <div class="animated-background-item animated-background-item-14"></div>
+	</div>
+
+       
+ 
+    
+    <div> 
+    </div>
+    
+</body>
+ 
+</html>

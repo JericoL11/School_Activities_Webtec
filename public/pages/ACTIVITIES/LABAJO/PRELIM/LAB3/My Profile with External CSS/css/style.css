@@ -1,0 +1,59 @@
+h3{
+    text-align: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+.img_format{
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    
+    margin-bottom: 3%;
+}
+.table_format{
+    
+    border: 1px solid black;
+     width: 50%;
+     background-color: white;
+}
+td{
+
+    border: 1px solid black;
+    text-align: left;
+    width: 60%;
+   
+}
+th{
+    border: 1px solid black;
+    text-align: right;
+}
+.denote-border{
+    margin-top: 5%;
+    margin-inline: 25%;
+    border:2px solid black;
+    background-color: aliceblue;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.TextboxColor{
+background-color:linen ;
+}
+
+hr{
+    text-align: center;
+}
+
+.label_tags{
+    font-weight: bold;
+}
+
+.buttonColor{
+    font-size: large;
+    background-color: aqua;
+    color: red;
+    font-style: bold;
+}

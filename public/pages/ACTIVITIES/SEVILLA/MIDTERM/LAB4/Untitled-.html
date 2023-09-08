@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<head>
+    <title>MY CALCULATOR</title>
+    <link rel="stylesheet" href="MyCalculator.css">
+</head>
+<body>
+    <div class="main">
+        <h2 id="headingTitle">My Basic Calculator</h2>
+        <table>
+            <tr>
+                <td>
+                    <label class="form-label">NUM1:</label>
+                </td>
+                <td>
+                    <input type="text" id="txtNum1" placeholder="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="form-label">NUM2:</label>
+                </td>
+                <td>
+                    <input type="text" id="txtNum2" placeholder="0">
+                </td>
+            </tr>   
+        </table><br>
+        <div class="btn">
+            <input type="button" value="+" onclick="addNumbers()">
+            <input type="button" value="-" onclick="subtractNumbers()">
+            <input type="button" value="*" onclick="multiplyNumbers()">
+            <input type="button" value="/" onclick="divideNumbers()">
+            <input type="button" id="btnClear" value="CLEAR" onclick="clearTextboxes()">
+        </div>
+    </div>
+    <script type="text/javascript" src="JavaScript/MyCalculator.js"></script>  
+</body>     
+</html>
